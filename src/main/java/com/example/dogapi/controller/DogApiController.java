@@ -6,16 +6,12 @@ import com.example.dogapi.dao.response.DogBreedsResponse;
 import com.example.dogapi.dao.response.DogImageResponse;
 import com.example.dogapi.dao.response.FavoriteImageResponse;
 import com.example.dogapi.entity.FavoriteImage;
-import com.example.dogapi.entity.User;
 import com.example.dogapi.exception.DogApiException;
 import com.example.dogapi.service.FavoriteImageService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;

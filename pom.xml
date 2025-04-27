@@ -13,7 +13,6 @@
     <groupId>com.example</groupId>
     <artifactId>dogapi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <username>dogapi</username>
     <description>Demo project for Dog Api</description>
 
     <url/>
