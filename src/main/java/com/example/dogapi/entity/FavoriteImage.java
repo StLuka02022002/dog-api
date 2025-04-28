@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "image")
+@Table(name = "images")
 public class FavoriteImage {
 
     @Id

@@ -13,12 +13,9 @@ import java.util.Optional;
 public class FavoriteImageService {
 
     private final UserRepository userRepository;
-    private final FavoriteImageRepository favoriteImageRepository;
 
-    public FavoriteImageService(UserRepository userRepository,
-                                FavoriteImageRepository favoriteImageRepository) {
+    public FavoriteImageService(UserRepository userRepository) {
         this.userRepository = userRepository;
-        this.favoriteImageRepository = favoriteImageRepository;
     }
 
     public void addFavoriteImage(String username, String imageUrl, String breed) {// Возможно парсить url
